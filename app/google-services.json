@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "704170769465",
+    "project_id": "internshalanotes-ee21a",
+    "storage_bucket": "internshalanotes-ee21a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704170769465:android:5d029e66f4f53397d1e1e8",
+        "android_client_info": {
+          "package_name": "com.example.internshalanotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704170769465-ndf5bkc9ktspfm6ukvccu7rdidef0m4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.internshalanotes",
+            "certificate_hash": "cc80da1625e84062fa17d81430f95571088ab9e0"
+          }
+        },
+        {
+          "client_id": "704170769465-e1duocl3c7209h9fg83nhgec9jatqk31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMOqyBKi5BLd84jgn-0EAULimX3TvqkNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704170769465-e1duocl3c7209h9fg83nhgec9jatqk31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

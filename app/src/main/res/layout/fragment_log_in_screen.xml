@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5EE1D2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ellipse_e" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/elll" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/alegreya_sans"
+            android:text="Hello There"
+            android:textColor="#077555"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/editfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/back"
+            android:paddingStart="20dp"
+            android:ems="10"
+            android:textColorHint="#A39C9C"
+            android:elevation="10dp"
+            android:layout_marginTop="50dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:fontFamily="@font/alegreya_sans"
+            android:textStyle="italic"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/editlastname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/back"
+            android:paddingStart="20dp"
+            android:ems="10"
+            android:elevation="10dp"
+            android:textColorHint="#A39C9C"
+            android:layout_marginTop="30dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:fontFamily="@font/alegreya_sans"
+            android:textStyle="italic"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/back"
+            android:paddingStart="20dp"
+            android:ems="10"
+            android:elevation="10dp"
+            android:textColorHint="#A39C9C"
+            android:layout_marginTop="30dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:fontFamily="@font/alegreya_sans"
+            android:textStyle="italic"
+            android:hint="Username" />
+
+
+
+
+        <TextView
+            android:id="@+id/editLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/back"
+            android:backgroundTint="#A7FFD3"
+            android:elevation="20dp"
+            android:text="LOGIN"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+</FrameLayout>
